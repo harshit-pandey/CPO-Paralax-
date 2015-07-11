@@ -3,24 +3,28 @@ html, body {
 }
 h1,h2
 {
- font-size:2em;
+ font-size:3em;
 }
 h3,input,button,address,time,details
 {
  font-size:1.75em;
 }
 
-section p 
-{
- font-size:1.75em;
+section p span {
+  font-size: 2.25em;
 }
-section p button,label,article p 
+label,article p 
 {
  font-size:1em;
 }
-address time
-{
- font-size:1em;
+address {
+  padding-top: 2%;
+}
+address time {
+  font-size: 1em;
+  line-height: 3em;
+  /* top: 10px; */
+  /* position: relative; */
 }
 summary time,summary details,footer
 
@@ -38,8 +42,75 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09486e', end
   position: fixed;
   width: 100%;
   top:0px;
+  padding: 20px 0px 20px 10px;
  }
- section.login-box {
-  position: relative;
-  top: 73px;
+section.login-box {
+  width: 25%;
+  margin: 250px auto;
+  text-align: center;
+ 
 }
+.form-control {
+  font-size: 1.5em;
+  height:45px;
+}
+.bg-color
+{
+  background:#eceae8;
+}
+.type-box {
+  display: inline-block;
+  width: 30%;
+  margin-right:3%;
+}
+
+.button {
+  margin-top: 30px;
+  border: 0px;
+  border-radius: 4px;
+  width: 20%;
+  display: block;
+  font-size: 2em;
+  color: #fff;
+  padding: 2px;
+  float:right;
+  margin-right:7%;
+  background:#fe7600;
+}
+
+.button-login
+{
+width:100%;
+  margin-right:0%;
+}   
+
+
+#info,#first,#second,#third,#fourth,#fifth,#sixth {
+  padding: 7% 3% 7% 3%;
+}
+.right-box {
+  width: 20%;
+  display: inline-block;
+  vertical-align: bottom;
+  padding-top: 13%;
+  text-align:center;
+}
+address {
+  padding-top: 2%;
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
+}
+.form-input {
+  padding: 10% 0% 10% 0%;
+}
+#third textarea,#fourth textarea {
+  width: 90%;
+  margin: 8% auto 8% auto;
+}
+.check-box
+{
+ width:30%;
+ margin:auto;
+ padding: 10% 0% 10% 0%;
+  }
