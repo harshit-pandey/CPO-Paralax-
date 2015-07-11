@@ -42,5 +42,16 @@ summary time,summary details,footer{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a93db', endColorstr='#032f5d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+button {
+	background: rgb(232, 127, 33);
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+}
+button:active{
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
 
 /*sfx*/
