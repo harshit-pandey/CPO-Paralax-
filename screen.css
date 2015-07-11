@@ -5,24 +5,20 @@ h1,h2
 {
  font-size:2em;
 }
-h3,input,button,address,time,details
+h3,input,button,address,time,details, section p
 {
  font-size:1.75em;
 }
 
-section p 
-{
- font-size:1.75em;
-}
-section p button,label,article p 
+section p button,label,article p , address time
 {
  font-size:1em;
 }
-address time
-{
- font-size:1em;
-}
-summary time,summary details,footer
 
-{ font-size:1.25em;
+summary time,summary details,footer{ font-size:1.25em;
+}
+
+.full-page {
+	width: 100vw;
+	height: 100vh;
 }
