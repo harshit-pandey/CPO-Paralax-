@@ -5,84 +5,204 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'/>
     <link rel="stylesheet" href="components/bootstrap/css/bootstrap.css">
+    <!-- <link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'/> -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="screen.css"/>
 </head>
-<body>
+<body class="background">
 <header>
     <img class="logo" alt="" src="mckc.png">
 </header>
-<section id="info">
-    <h1>CPO Round Table</h1>
-    <address>
-        Hotel Name, 27-C Street Name<br/>City Name State, Autralia
-        <br/>
-        <time>Time : 8.00 AM to 5.00 PM</time>
-    </address>
-  <div class="right-box">
-        <p><span>Please answer the 3 short questions as pre-work</span>
-        <button type="button" class="button-login button">Start</button></p>    </div>
-</section>
-<section id="first">
-    <h2>What are 3 words that you associate with the term "digital"?</h2>
-    <div class="form-input">
-	<input type="text" class="type-box form-control" id="textOne">
-    <input type="text" class="type-box form-control" id="textTwo">
-	<input type="text" class="type-box form-control" id="textThree">   </div>
-	 <button type="button" class="button">Next</button>
-</section>
-<section id="second">
-    <h2>Which of these images resonates most when thinking about "digital"?</h2>
-    <ul>
-        <li><label><img src="" alt=""><input type="radio" name="second" value="first"></label></li>
-        <li><label><img src="" alt=""><input type="radio" name="second" value="second"></label></li>
-        <li><label><img src="" alt=""><input type="radio" name="second" value="third"></label></li>
-        <li><label><img src="" alt=""><input type="radio" name="second" value="fourth"></label></li>
-        <li><label><img src="" alt=""><input type="radio" name="second" value="fifth"></label></li>
-        <li><label><img src="" alt=""><input type="radio" name="second" value="sixth"></label></li>
-    </ul>
-    <button type="button" class="button">Next</button>
-</section>
-<section id="third">
-    <h2>What is the biggest opportunity for digital to help you and your team?</h2>
-     <textarea class="form-control" rows="8" placeholder="Type here..."></textarea>
-    <button class="button" type="button">Next</button>
-</section>
-<section id="fourth">
-    <h2>What digital capabilities are you already using within your team?</h2>
-    <ul>
-        <li><label><input type="checkbox" value="first"/>e-auction</label></li>
-        <li><label><input type="checkbox" value="second"/>eRFX</label></li>
-        <li><label><input type="checkbox" value="third"/>Procure to pay</label></li>
-        <li><label><input type="checkbox" value="fourth"/>Spend analysis (cube available on an app)</label></li>
-        <li><label><input type="checkbox" value="fifth"/>Negotiation apps</label></li>
-        <li><label><input type="checkbox" value="sixth"/>Industry sourcing platform</label></li>
-        <li><label><input type="checkbox" value="sixth"/>Online consumption / demand tracking tools (weblink, app)</label></li>
-    </ul>
-     <textarea class="form-control" rows="1" placeholder="Other : Type here..."></textarea>
 
-    <button class="button" type="button">Next</button>
+<section class="full-page" id="info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1><span>CPO</span> Round Table</h1>
+                <address>
+                    <i class="glyphicon glyphicon-map-marker"></i>&nbsp;Hotel Name, 27-C Street Name, City Name State, Autralia
+                </address>
+                <time><i class="glyphicon glyphicon-time"></i>&nbsp;Time : 8.00 AM to 5.00 PM</time>
+            </div>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6 text-center">
+                    <p>Please answer the 6 short questions as pre-work</p>
+                    <a href="#first" class="button"><i class="glyphicon glyphicon-chevron-down"></i>&nbsp;Start</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-<section id="fifth">
-    <h2>What are 3 opportunities you can think of where your company could increase revenue or productivity through
-        digital (beyond procurement):</h2>
-    <h3>e.g. advanced analytics/ big data, faster product development, supply chain automation,...)</h3>
-    <div class="form-input">
-	<input type="text" class="type-box form-control" id="textOne">
-    <input type="text" class="type-box form-control" id="textTwo">
-	<input type="text" class="type-box form-control" id="textThree">   </div>
-    <button type="button" class="button">Next</button>
+<section class="full-page" id="first">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>What are 3 words that you associate with the term "digital"?</h2>
+
+                <form>
+                    <div class="row">
+                        <div class="col-md-4"><input type="text" class="form-control input-lg"></div>
+                        <div class="col-md-4"><input type="text" class="form-control input-lg"></div>
+                        <div class="col-md-4"><input type="text" class="form-control input-lg"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="button-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-right">
+                    <a href="#second" class="button"><i class="glyphicon glyphicon-chevron-down"></i>&nbsp;Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
-<section id="sixth">
-    <h2>When is the last time you had a conversation on digital with a member of the leadership team (COO, CFO,
-        Marketing,...)</h2>
-    <ul class="check-box">
-        <li><label><input type="radio" name="sixth" value="first"/>Never</label></li>
-        <li><label><input type="radio" name="sixth" value="second"/>Within the last 3 months</label></li>
-        <li><label><input type="radio" name="sixth" value="third"/>Yesterday</label></li>
-    </ul>
-    <button class="button" type="button">Next</button>
+<section class="full-page" id="second">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Which of these images resonates most when thinking about "digital"?</h2>
+                <ul class="list-unstyled">
+                    <li><label><img src="" alt=""><input type="radio" name="second" value="first"></label></li>
+                    <li><label><img src="" alt=""><input type="radio" name="second" value="second"></label></li>
+                    <li><label><img src="" alt=""><input type="radio" name="second" value="third"></label></li>
+                    <li><label><img src="" alt=""><input type="radio" name="second" value="fourth"></label></li>
+                    <li><label><img src="" alt=""><input type="radio" name="second" value="fifth"></label></li>
+                    <li><label><img src="" alt=""><input type="radio" name="second" value="sixth"></label></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="button-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-right">
+                    <a href="#third" class="button"><i class="glyphicon glyphicon-chevron-down"></i>&nbsp;Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+<section class="full-page" id="third">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>What is the biggest opportunity for digital to help you and your team?</h2>
+                <textarea class="form-control" rows="8" placeholder="Type here..."></textarea>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="button-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-right">
+                    <a href="#fourth" class="button"><i class="glyphicon glyphicon-chevron-down"></i>&nbsp;Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="full-page" id="fourth">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>What digital capabilities are you already using within your team?</h2>
+                <ul class="list-unstyled">
+                    <li><label><input type="checkbox" value="first"/>e-auction</label></li>
+                    <li><label><input type="checkbox" value="second"/>eRFX</label></li>
+                    <li><label><input type="checkbox" value="third"/>Procure to pay</label></li>
+                    <li><label><input type="checkbox" value="fourth"/>Spend analysis (cube available on an app)</label>
+                    </li>
+                    <li><label><input type="checkbox" value="fifth"/>Negotiation apps</label></li>
+                    <li><label><input type="checkbox" value="sixth"/>Industry sourcing platform</label></li>
+                    <li><label><input type="checkbox" value="sixth"/>Online consumption / demand tracking tools
+                        (weblink, app)</label></li>
+                </ul>
+                <textarea class="form-control" rows="1" placeholder="Other : Type here..."></textarea>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="button-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-right">
+                    <a href="#fifth" class="button"><i class="glyphicon glyphicon-chevron-down"></i>&nbsp;Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="full-page" id="fifth">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="font-size: 70%">
+                <h2>What are 3 opportunities you can think of where your company could increase revenue or productivity
+                    through
+                    digital (beyond procurement):</h2>
+
+                <h3>e.g. advanced analytics/ big data, faster product development, supply chain automation,...)</h3>
+
+                <form>
+                    <div class="row">
+                        <div class="col-md-4"><input type="text" class="form-control input-lg"></div>
+                        <div class="col-md-4"><input type="text" class="form-control input-lg"></div>
+                        <div class="col-md-4"><input type="text" class="form-control input-lg"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-right">
+                    <a href="#sixth" class="button"><i class="glyphicon glyphicon-chevron-down"></i>&nbsp;Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="full-page" id="sixth">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>When is the last time you had a conversation on digital with a member of the leadership team (COO,
+                    CFO,
+                    Marketing,...)</h2>
+                <ul class="check-box list-unstyled">
+                    <li><label><input type="radio" name="sixth" value="first"/>Never</label></li>
+                    <li><label><input type="radio" name="sixth" value="second"/>Within the last 3 months</label></li>
+                    <li><label><input type="radio" name="sixth" value="third"/>Yesterday</label></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-right">
+                    <a href="agency.html" class="button"><i class="glyphicon glyphicon-chevron-down"></i>&nbsp;Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 </body>
 </html>
