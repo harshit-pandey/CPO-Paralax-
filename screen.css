@@ -26,3 +26,20 @@ summary time,summary details,footer
 
 { font-size:1.25em;
 }
+header {
+background: #09486e; /* Old browsers */
+background: -moz-linear-gradient(top,  #09486e 27%, #002d5a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(27%,#09486e), color-stop(100%,#002d5a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #09486e 27%,#002d5a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #09486e 27%,#002d5a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #09486e 27%,#002d5a 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #09486e 27%,#002d5a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09486e', endColorstr='#002d5a',GradientType=0 ); /* IE6-9 */
+  position: fixed;
+  width: 100%;
+  top:0px;
+ }
+ section.login-box {
+  position: relative;
+  top: 73px;
+}
