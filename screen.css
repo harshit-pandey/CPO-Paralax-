@@ -5,6 +5,7 @@ body {
     color: white;
 }
 
+
 h1, h2, h3 {
     text-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
@@ -40,6 +41,18 @@ h3 {
 }
 address, time {
     font-size: 4vh;
+    font-weight: 300;
+}
+
+p, summary time {
+    font-size: 3vh;
+    font-weight: 100;
+}
+
+.agenda h2{
+    margin-bottom: 4vh
+}
+.agenda h3 {
     font-weight: 300;
 }
 /*layout*/
