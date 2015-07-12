@@ -46,7 +46,7 @@ address, time {
 .full-page {
     width: 100vw;
     height: 100vh;
-    padding-top: 8vh;
+    /*padding-top: 8vh;*/
     position: relative;
 }
 /*colors*/
@@ -86,16 +86,12 @@ header {
     /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#09486e', endColorstr='#002d5a', GradientType=0);
     /* IE6-9 */
-    position: fixed;
-    width: 100%;
-    top: 0px;
     padding: 1vh 2vw;
-    z-index: 1000;
 }
 .button-container{
     position: absolute;
     overflow: auto;
-    bottom: 30px;
+    bottom: 7vh;
     right: 0;
     width: 100%;
 }
@@ -159,4 +155,33 @@ input[type="text"] {
 /* Landscape */
 @media screen and (orientation:landscape) {
     /* Landscape styles */
+}
+
+.checkbox, .radio  {
+    background: rgb(234, 234, 234);
+    border-radius: 3px;
+    border: 1px solid rgb(77, 77, 77);
+    color: rgb(77, 77, 77);
+}
+.checkbox label, .radio label {
+    display: block;
+    font-size: 2.5vh;
+    font-weight: 300;
+    text-align: center;
+    height: 8vh;
+    margin: 0;
+    padding: 0 1vw;
+}
+.checkbox input, .radio input {
+    display: none;
+}
+
+.checkbox .glyphicon, .radio .glyphicon {
+    line-height: 8vh;
+    font-size: 4vh;
+    color: rgb(196, 196, 196);
+}
+.checkbox input:checked + .glyphicon, .radio input:checked + .glyphicon {
+    color: #fe7600;
+    display: inline-block;
 }
