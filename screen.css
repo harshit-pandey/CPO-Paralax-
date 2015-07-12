@@ -224,3 +224,29 @@ input[type="text"] {
     color: #fe7600;
     display: inline-block;
 }
+
+#second input {
+    display: none;
+}
+#second .glyphicon{
+    font-size: 4vh;
+    color: rgb(196, 196, 196);
+}
+
+#second input:checked + .glyphicon{
+    color: #fe7600;
+    display: inline-block;
+}
+#second label {
+    position: relative;
+    text-align: center;
+}
+#second label span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+}
