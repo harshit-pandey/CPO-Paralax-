@@ -5,16 +5,16 @@ html, body {
   color: white;
 }
 h1, h2, h3 {
-  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
 h2 {
-  font-weight: 100;
   font-size: 6vh;
+  font-weight: 100;
   margin-bottom: 10vh;
 }
 h3 {
-  font-weight: 100;
   font-size: 4vh;
+  font-weight: 100;
 }
 #fifth h2 {
   font-size: 5vh;
@@ -30,7 +30,7 @@ h3 {
 }
 #info h1 span {
   font-weight: 400;
-  text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 0 20px rgba(0, 0, 0, .1);
 }
 address, time {
   font-size: 4vh;
@@ -41,7 +41,7 @@ p, summary time {
   font-weight: 100;
 }
 .agenda h2 {
-  margin-bottom: 4vh
+  margin-bottom: 4vh;
 }
 .agenda h3 {
   font-weight: 300;
@@ -53,9 +53,9 @@ p, summary time {
 /*layout*/
 
 .full-page {
+  position: relative;
   width: 100vw;
   height: 100vh;
-  position: relative;
 }
 /*colors*/
 
@@ -92,6 +92,9 @@ filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#2a93db', end
   background-size: cover;
 }
 header {
+  /* IE6-9 */
+
+padding: 1vh 2vw;
   background: #09486e;
   /* Old browsers */
 
@@ -111,19 +114,16 @@ background: -ms-linear-gradient(top, #09486e 27%, #002d5a 100%);
   /* IE10+ */
 
 background: linear-gradient(to bottom, #09486e 27%, #002d5a 100%);
+  box-shadow: 0 0 50px rgba(0, 0, 0, .4);
   /* W3C */
 
 filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#09486e', endColorstr='#002d5a', GradientType=0);
-  /* IE6-9 */
-
-padding: 1vh 2vw;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4)
 }
 .button-container {
   position: absolute;
-  overflow: auto;
-  bottom: 2vh;
   right: 0;
+  bottom: 2vh;
+  overflow: auto;
   width: 100%;
 }
 .button-container p {
@@ -134,42 +134,42 @@ padding: 1vh 2vw;
   bottom: 7vh;
 }
 .button, .button: link, .button: active, .button: visited {
-  border: 0px;
-  border-radius: 5px;
-  color: #fff;
-  background: #fe7600;
-  display: inline-block;
-  text-decoration: none;
-  padding: 1.5vh 7vh;
   font-size: 3.5vh;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: inline-block;
   margin: 10px 0;
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.4);
-  border-top: 1px solid rgba(255, 255, 255, 0.6);
-  border-left: 1px solid rgba(255, 255, 255, 0.6);
-  border-right: 1px solid rgba(0, 0, 0, 0.3);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 1.5vh 7vh;
+  text-decoration: none;
+  color: #fff;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, .6);
+  border-right: 1px solid rgba(0, 0, 0, .3);
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  border-left: 1px solid rgba(255, 255, 255, .6);
+  border-radius: 5px;
+  background: #fe7600;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, .4);
 }
-input[type="text"] {
+input[type='text'] {
   margin: 10px 0;
 }
 .login-box {
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 3px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  padding: 2vw;
   margin-top: 15vh;
+  padding: 2vw;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, .9);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
 }
 .login-box .button {
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 .login-box h1 {
-  margin: 0 0 3vh 0;
-  color: #000;
-  font-weight: 100;
-  white-space: nowrap;
-  overflow: visible;
   font-size: 4vw;
+  font-weight: 100;
+  overflow: visible;
+  margin: 0 0 3vh 0;
+  white-space: nowrap;
+  color: #000;
 }
 .login-box h1 span {
   font-weight: 400;
@@ -190,41 +190,41 @@ input[type="text"] {
 }
 @media (max-width: 414px) {
   #fourth h2 {
-    margin-bottom: 0
+    margin-bottom: 0;
  }
  #fifth h3 {
-   margin-bottom: 0
+   margin-bottom: 0;
 }
 #sixth h2 {
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 }
 .checkbox, .radio {
-  background: rgb(234, 234, 234);
-  border-radius: 3px;
-  border: 1px solid rgb(77, 77, 77);
   color: rgb(77, 77, 77);
+  border: 1px solid rgb(77, 77, 77);
+  border-radius: 3px;
+  background: rgb(234, 234, 234);
 }
 .checkbox label, .radio label {
-  display: block;
   font-size: 2.5vh;
   font-weight: 300;
-  text-align: center;
+  display: block;
   height: 8vh;
   margin: 0;
   padding: 0 1vw;
+  text-align: center;
 }
 .checkbox input, .radio input {
   display: none;
 }
 .checkbox .glyphicon, .radio .glyphicon {
-  line-height: 8vh;
   font-size: 4vh;
+  line-height: 8vh;
   color: rgb(196, 196, 196);
 }
-.checkbox input: checked + .glyphicon, .radio input: checked + .glyphicon {
-  color: #fe7600;
+.checkbox input:checked + .glyphicon, .radio input:checked + .glyphicon {
   display: inline-block;
+  color: #fe7600;
 }
 #second input {
   display: none;
@@ -233,9 +233,9 @@ input[type="text"] {
   font-size: 4vh;
   color: rgb(196, 196, 196);
 }
-#second input: checked + .glyphicon {
-  color: #fe7600;
+#second input:checked + .glyphicon {
   display: inline-block;
+  color: #fe7600;
 }
 #second label {
   position: relative;
@@ -246,9 +246,9 @@ input[type="text"] {
   bottom: 0;
   left: 0;
   display: block;
-  padding: 2vh 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.4);
+  padding: 2vh 0;
+  background: rgba(255, 255, 255, .4);
 }
 .agenda section {
   margin-top: 5vh;
@@ -256,16 +256,16 @@ input[type="text"] {
 .agenda img {
   margin-bottom: 2vh;
 }
-.agenda a: link, .agenda a: visited, .agenda a: active {
-  color: white;
+.agenda a:link, .agenda a:visited, .agenda a:active {
   text-decoration: underline;
+  color: white;
 }
 .questions img.img-responsive {
   max-height: 28vh;
 }
 .blocks {
   position: fixed;
-  top: 0;
-  opacity: 0.2;
   z-index: -1;
+  top: 0;
+  opacity: .2;
 }
