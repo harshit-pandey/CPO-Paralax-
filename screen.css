@@ -1,282 +1,271 @@
 /*font*/
-html,
-body {
-    font-family: 'Roboto', sans-serif;
-    color: white;
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
-
-
 h1, h2, h3 {
-    text-shadow: 0 0 20px rgba(0,0,0,0.5);
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-
 h2 {
-    font-weight: 100;
-    font-size: 6vh;
-    margin-bottom: 10vh;
+  font-weight: 100;
+  font-size: 6vh;
+  margin-bottom: 10vh;
 }
 h3 {
-    font-weight: 100;
-    font-size: 4vh;
+  font-weight: 100;
+  font-size: 4vh;
 }
-
-#fifth h2{
-    font-size: 5vh;
-    margin-bottom: 0;
+#fifth h2 {
+  font-size: 5vh;
+  margin-bottom: 0;
 }
-
 #fifth h3 {
-    font-size: 3vh;
-    margin-bottom: 10vh;
+  font-size: 3vh;
+  margin-bottom: 10vh;
 }
-
 #info h1 {
-    font-size: 10vh;
-    font-weight: 100;
+  font-size: 10vh;
+  font-weight: 100;
 }
-
-
 #info h1 span {
-    font-weight: 400;
-    text-shadow: 0 0 20px rgba(0,0,0,0.1);
+  font-weight: 400;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-
-
-
 address, time {
-    font-size: 4vh;
-    font-weight: 300;
+  font-size: 4vh;
+  font-weight: 300;
 }
-
 p, summary time {
-    font-size: 3vh;
-    font-weight: 100;
+  font-size: 3vh;
+  font-weight: 100;
 }
-
-.agenda h2{
-    margin-bottom: 4vh
+.agenda h2 {
+  margin-bottom: 4vh
 }
 .agenda h3 {
-    font-weight: 300;
-    margin-top: 0;
+  font-weight: 300;
+  margin-top: 0;
 }
-
-.agenda .article h2{
-    margin: 10vh 0;
+.agenda .article h2 {
+  margin: 10vh 0;
 }
 /*layout*/
+
 .full-page {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 /*colors*/
-.background {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2a93db+0,032f5d+100 */
-    background: rgb(42, 147, 219);
-    /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgba(42, 147, 219, 1) 0%, rgba(3, 47, 93, 1) 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(42, 147, 219, 1)), color-stop(100%, rgba(3, 47, 93, 1)));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(-45deg, rgba(42, 147, 219, 1) 0%, rgba(3, 47, 93, 1) 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(-45deg, rgba(42, 147, 219, 1) 0%, rgba(3, 47, 93, 1) 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(-45deg, rgba(42, 147, 219, 1) 0%, rgba(3, 47, 93, 1) 100%);
-    /* IE10+ */
-    background: linear-gradient(135deg, rgba(42, 147, 219, 1) 0%, rgba(3, 47, 93, 1) 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2a93db', endColorstr='#032f5d', GradientType=1);
-    /* IE6-9 fallback on horizontal gradient */
-}
-.login{
-    background-image: url(img/bg_login.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 
+.background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2a93db+0,032f5d+100 */
+
+background: rgb(42, 147, 219);
+  /* Old browsers */
+
+background: -moz-linear-gradient(-45deg, rgba(42, 147, 219, 1) 0%, rgba(3, 47, 93, 1) 100%);
+  /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(42, 147, 219, 1)), color-stop(100%, rgba(3, 47, 93, 1)));
+  /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(-45deg, rgba(42, 147, 219, 1) 0%, rgba(3, 47, 93, 1) 100%);
+  /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(-45deg, rgba(42, 147, 219, 1) 0%, rgba(3, 47, 93, 1) 100%);
+  /* Opera 11.10+ */
+
+background: -ms-linear-gradient(-45deg, rgba(42, 147, 219, 1) 0%, rgba(3, 47, 93, 1) 100%);
+  /* IE10+ */
+
+background: linear-gradient(135deg, rgba(42, 147, 219, 1) 0%, rgba(3, 47, 93, 1) 100%);
+  /* W3C */
+
+filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#2a93db', endColorstr='#032f5d', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.login {
+  background-image: url(img/bg_login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header {
-    background: #09486e;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #09486e 27%, #002d5a 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(27%, #09486e), color-stop(100%, #002d5a));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #09486e 27%, #002d5a 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #09486e 27%, #002d5a 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #09486e 27%, #002d5a 100%);
-    /* IE10+ */
-    background: linear-gradient(to bottom, #09486e 27%, #002d5a 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#09486e', endColorstr='#002d5a', GradientType=0);
-    /* IE6-9 */
-    padding: 1vh 2vw;
-    box-shadow: 0 0 50px rgba(0,0,0,0.4)
+  background: #09486e;
+  /* Old browsers */
+
+background: -moz-linear-gradient(top, #09486e 27%, #002d5a 100%);
+  /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(27%, #09486e), color-stop(100%, #002d5a));
+  /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(top, #09486e 27%, #002d5a 100%);
+  /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(top, #09486e 27%, #002d5a 100%);
+  /* Opera 11.10+ */
+
+background: -ms-linear-gradient(top, #09486e 27%, #002d5a 100%);
+  /* IE10+ */
+
+background: linear-gradient(to bottom, #09486e 27%, #002d5a 100%);
+  /* W3C */
+
+filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#09486e', endColorstr='#002d5a', GradientType=0);
+  /* IE6-9 */
+
+padding: 1vh 2vw;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4)
 }
-.button-container{
-    position: absolute;
-    overflow: auto;
-    bottom: 2vh;
-    right: 0;
-    width: 100%;
+.button-container {
+  position: absolute;
+  overflow: auto;
+  bottom: 2vh;
+  right: 0;
+  width: 100%;
 }
-.button-container p{
-    font-size: 5vh;
-    font-weight: 300;
+.button-container p {
+  font-size: 5vh;
+  font-weight: 300;
 }
 #info .button-container {
-    bottom: 7vh;
+  bottom: 7vh;
 }
-.button, .button:link, .button:active, .button:visited {
-    border: 0px;
-    border-radius: 5px;
-    color: #fff;
-    background: #fe7600;
-    display: inline-block;
-    text-decoration: none;
-    padding: 1.5vh 7vh;
-    font-size: 3.5vh;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    margin: 10px 0;
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.4);
-    border-top: 1px solid rgba(255, 255, 255, 0.6);
-    border-left: 1px solid rgba(255, 255, 255, 0.6);
-    border-right: 1px solid rgba(0,0,0, 0.3);
-    border-bottom: 1px solid rgba(0,0,0, 0.3);
+.button, .button: link, .button: active, .button: visited {
+  border: 0px;
+  border-radius: 5px;
+  color: #fff;
+  background: #fe7600;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.5vh 7vh;
+  font-size: 3.5vh;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
-
 input[type="text"] {
-    margin: 10px 0;
+  margin: 10px 0;
 }
-
-.login-box{
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 3px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    padding: 2vw;
-    margin-top: 15vh;
+.login-box {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 3px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  padding: 2vw;
+  margin-top: 15vh;
 }
 .login-box .button {
-    margin-bottom: 0
+  margin-bottom: 0
 }
+.login-box h1 {
+  margin: 0 0 3vh 0;
+  color: #000;
+  font-weight: 100;
+  white-space: nowrap;
+  overflow: visible;
+  font-size: 4vw;
+}
+.login-box h1 span {
+  font-weight: 400;
+}
+/* Portrait */
+
+@media screen and (orientation: portrait) {
+  /* Portrait styles */
 
 .login-box h1 {
-    margin: 0 0 3vh 0;
-    color: #000;
-    font-weight: 100;
-    white-space: nowrap;
-    overflow: visible;
-    font-size: 4vw;
-}
-
-.login-box h1 span {
-    font-weight: 400;
-}
-
-/* Portrait */
-@media screen and (orientation:portrait) {
-    /* Portrait styles */
-    .login-box h1 {
-        font-size: 10vw;
-    }
+    font-size: 10vw;
+ }
 }
 /* Landscape */
-@media screen and (orientation:landscape) {
-    /* Landscape styles */
-}
 
+@media screen and (orientation: landscape) {
+  /* Landscape styles */
+}
 @media (max-width: 414px) {
-    #fourth h2 {
-        margin-bottom: 0
-    }
-
-    #fifth h3 {
-        margin-bottom: 0
-    }
-
-    #sixth h2{
-        margin-bottom: 0    
-    }
+  #fourth h2 {
+    margin-bottom: 0
+ }
+ #fifth h3 {
+   margin-bottom: 0
 }
-
-.checkbox, .radio  {
-    background: rgb(234, 234, 234);
-    border-radius: 3px;
-    border: 1px solid rgb(77, 77, 77);
-    color: rgb(77, 77, 77);
+#sixth h2 {
+  margin-bottom: 0
+}
+}
+.checkbox, .radio {
+  background: rgb(234, 234, 234);
+  border-radius: 3px;
+  border: 1px solid rgb(77, 77, 77);
+  color: rgb(77, 77, 77);
 }
 .checkbox label, .radio label {
-    display: block;
-    font-size: 2.5vh;
-    font-weight: 300;
-    text-align: center;
-    height: 8vh;
-    margin: 0;
-    padding: 0 1vw;
+  display: block;
+  font-size: 2.5vh;
+  font-weight: 300;
+  text-align: center;
+  height: 8vh;
+  margin: 0;
+  padding: 0 1vw;
 }
 .checkbox input, .radio input {
-    display: none;
+  display: none;
 }
-
 .checkbox .glyphicon, .radio .glyphicon {
-    line-height: 8vh;
-    font-size: 4vh;
-    color: rgb(196, 196, 196);
+  line-height: 8vh;
+  font-size: 4vh;
+  color: rgb(196, 196, 196);
 }
-.checkbox input:checked + .glyphicon, .radio input:checked + .glyphicon {
-    color: #fe7600;
-    display: inline-block;
+.checkbox input: checked + .glyphicon, .radio input: checked + .glyphicon {
+  color: #fe7600;
+  display: inline-block;
 }
-
 #second input {
-    display: none;
+  display: none;
 }
-#second .glyphicon{
-    font-size: 4vh;
-    color: rgb(196, 196, 196);
+#second .glyphicon {
+  font-size: 4vh;
+  color: rgb(196, 196, 196);
 }
-
-#second input:checked + .glyphicon{
-    color: #fe7600;
-    display: inline-block;
+#second input: checked + .glyphicon {
+  color: #fe7600;
+  display: inline-block;
 }
 #second label {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 #second label span {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: block;
-    padding: 2vh 0;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding: 2vh 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.4);
 }
-
 .agenda section {
-    margin-top: 5vh;
+  margin-top: 5vh;
 }
-
-.agenda img{
-    margin-bottom: 2vh;
+.agenda img {
+  margin-bottom: 2vh;
 }
-
-.agenda a:link, .agenda a:visited, .agenda a:active {
-    color:white;
-    text-decoration: underline;
+.agenda a: link, .agenda a: visited, .agenda a: active {
+  color: white;
+  text-decoration: underline;
 }
-
 .questions img.img-responsive {
-    max-height: 28vh;
+  max-height: 28vh;
 }
-
 .blocks {
-    position: fixed;
-    top: 0;
-    opacity: 0.2;
-    z-index: -1;
+  position: fixed;
+  top: 0;
+  opacity: 0.2;
+  z-index: -1;
 }
