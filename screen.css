@@ -265,6 +265,11 @@ input[type="text"] {
     margin-bottom: 2vh;
 }
 
+.agenda a:link, .agenda a:visited, .agenda a:active {
+    color:white;
+    text-decoration: underline;
+}
+
 .questions img.img-responsive {
     max-height: 28vh;
 }
