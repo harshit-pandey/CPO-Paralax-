@@ -1,7 +1,7 @@
 /*font*/
 html,
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
@@ -68,7 +68,6 @@ p, summary time {
 .full-page {
     width: 100vw;
     height: 100vh;
-    /*padding-top: 8vh;*/
     position: relative;
 }
 /*colors*/
@@ -109,6 +108,7 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#09486e', endColorstr='#002d5a', GradientType=0);
     /* IE6-9 */
     padding: 1vh 2vw;
+    box-shadow: 0 0 50px rgba(0,0,0,0.4)
 }
 .button-container{
     position: absolute;
@@ -248,5 +248,24 @@ input[type="text"] {
     display: block;
     padding: 2vh 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.agenda section {
+    margin-top: 5vh;
+}
+
+.agenda img{
+    margin-bottom: 2vh;
+}
+
+.questions img.img-responsive {
+    max-height: 28vh;
+}
+
+.blocks {
+    position: fixed;
+    top: 0;
+    opacity: 0.2;
+    z-index: -1;
 }
