@@ -35,10 +35,25 @@ h3 {
     font-weight: 100;
 }
 
+#fourth h2 {
+    margin-bottom: 0
+}
+
+#fifth h3 {
+    margin-bottom: 0
+}
+
+#sixth h2{
+    margin-bottom: 0
+}
+
 #info h1 span {
     font-weight: 400;
     text-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
+
+
+
 address, time {
     font-size: 4vh;
     font-weight: 300;
@@ -54,6 +69,10 @@ p, summary time {
 }
 .agenda h3 {
     font-weight: 300;
+}
+
+.agenda .article h2{
+    margin: 10vh 0;
 }
 /*layout*/
 .full-page {
@@ -104,13 +123,16 @@ header {
 .button-container{
     position: absolute;
     overflow: auto;
-    bottom: 7vh;
+    bottom: 2vh;
     right: 0;
     width: 100%;
 }
 .button-container p{
     font-size: 5vh;
     font-weight: 300;
+}
+#info .button-container {
+    bottom: 7vh;
 }
 .button, .button:link, .button:active, .button:visited {
     border: 0px;
