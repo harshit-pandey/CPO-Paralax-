@@ -90,6 +90,12 @@ p, summary time {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2a93db', endColorstr='#032f5d', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
 }
+.login{
+    background-image: url(img/bg_login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 header {
     background: #09486e;
     /* Old browsers */
