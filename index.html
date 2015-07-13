@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <title>CPO</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,30 +8,42 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'/>
     <link rel="stylesheet" href="components/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="screen.css"/>
-  </head>
-  <body class="background login">
-    <header>
-      <img class="logo" alt="McKinsey&Company" src="mckc.png">
-    </header>
-    <!-- <div class="blocks">
-          <img src="img/bg_squares.png" alt="">
-    </div> -->
-    <article class="full-page">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
+</head>
+<body class="background login">
+<header>
+    <img class="logo" alt="McKinsey&Company" src="mckc.png">
+</header>
+<!-- <div class="blocks">
+    <img src="img/bg_squares.png" alt="">
+</div> -->
+<article class="full-page">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
             <section class="login-box">
-              <h1><span>CPO</span> Round Table</h1>
-              <form action="questions.html">
-                <input type="text" class="form-control input-lg" placeholder="username">
-                <input type="text" class="form-control input-lg" placeholder="password"/>
-                <button class="button btn-block" type="submit">Login</button>
-              </form>
+                <h1><span>CPO</span> Round Table</h1>
+                <form action="questions.html">
+                    <input type="text" class="form-control input-lg" id="username1" placeholder="username">
+                    <input type="text" class="form-control input-lg" id="password1" placeholder="password"/>    
+                    <button id="AuthenticationCheck" class="button btn-block" type="submit">Login</button>
+                </form>
             </section>
-          </div>
         </div>
-      </div>
+    </div>
+</div>
+    
+</article>
+<script src="components/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
 
-    </article>
-  </body>
+    $('#AuthenticationCheck').on('click', function (e) {
+            if(((document.getElementById("username1").value).toLowerCase() =="cpo") || ((document.getElementById("password1").value).toLowerCase)=="password"){
+            }else{
+                alert("Please check your login details")
+                e.preventDefault();
+            }
+    });
+</script>
+
+</body>
 </html>
